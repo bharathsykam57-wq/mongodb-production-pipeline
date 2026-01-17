@@ -36,21 +36,21 @@ Main Application Runner
 ---
 
 ## Folder Structure
-
-mongo_production_app/
-│
-├── app/
-│   ├── main.py
-│   ├── db/
+```
+mongodb-production-pipeline
+├── mongo_production_app
+│   ├── app
+│   │   └── main.py
+│   ├── db
 │   │   └── mongo_client.py
-│   └── services/
+│   └── services
 │       └── user_service.py
-│
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 
+```
 ---
 
 ## Setup Instructions
